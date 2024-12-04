@@ -11,3 +11,10 @@ def bubble_sort():
     return array
 
 print(bubble_sort())
+
+import random
+
+array2 = [12, 1, 18, 5, 9, 14, 17, 11, 6, 20]
+random.shuffle(array2)
+
+print("Zamíchané pole:", array2)
